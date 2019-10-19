@@ -1,0 +1,22 @@
+{
+  "name": "stf---nasa-spaceapps-challenge-2019",
+  "version": "1.0.0",
+  "description": "Spot that fire Challenge for Nasa SpaceApps Hackaton 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stiakov/STF---Nasa-SpaceApps-Challenge-2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stiakov/STF---Nasa-SpaceApps-Challenge-2019/issues"
+  },
+  "homepage": "https://github.com/stiakov/STF---Nasa-SpaceApps-Challenge-2019#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
