@@ -7,9 +7,9 @@ const botEndPoints = require('./src/bot');
 dotenv.config();
 
 const i18n = new TelegrafI18n({
-  defaultLanguage: 'en',
+  defaultLanguage: process.env.VAL_FILE_LANGUAGE_CODE,
   allowMissing: false,
-  directory: path.resolve(__dirname, 'locales')
+  directory: path.resolve(__dirname, process.env.PATH_LOCALES)
 });
 
 const bot = new Telegraf( process.env.TOKEN_BOT );
