@@ -4,19 +4,26 @@
   "description": "Spot that fire Challenge for Nasa SpaceApps Hackaton 2019",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stiakov/STF---Nasa-SpaceApps-Challenge-2019.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/stiakov/STF---Nasa-SpaceApps-Challenge-2019/issues"
   },
   "homepage": "https://github.com/stiakov/STF---Nasa-SpaceApps-Challenge-2019#readme",
   "dependencies": {
-    "node-telegram-bot-api": "^0.30.0"
+    "@google-cloud/speech": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "download-file": "^0.1.5",
+    "google-tts-api": "0.0.4",
+    "telegraf": "^3.33.0",
+    "telegraf-i18n": "^6.6.0",
+    "telegraf-wit": "^2.1.0"
   }
 }
