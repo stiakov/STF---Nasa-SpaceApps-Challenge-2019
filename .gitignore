@@ -62,3 +62,7 @@ typings/
 .idea/
 
 package-lock.json
+assets/tmp
+credentials.json
+.vscode
+src/assets/tmp
